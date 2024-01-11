@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <title>GreeyouSoft Account</title>
+     <style>
+      .main{
+       width:32em;
+       height:45em;
+       border: solid 1px #EEEEEE;
+       border-radius: 12px;
+       
+      }
+      img{
+       width:10em;
+       height:10em;
+       margin-bottom: 5em;
+      }
+      .title{
+       font-family: sans-serif;
+       width:40em;
+       height:5em;
+       right:2em;
+  
+      }
+      #logins{
+       visibility: visible; 
+       padding: 1em 2em;
+       background: skyblue;
+       width:0.9em;
+       height:0.9em;
+       bottom: 3em;
+      }
+      #creates{
+       visibility: hidden;
+       padding: 1em 2em;
+       background: skyblue;
+       width:0.9em;
+       height:0.9em;
+       bottom: 3em;
+      }
+      #name{
+       padding: 2em 3em;
+       border-radius: 1em;
+      }
+      #mail{
+       bottom:2em
+       padding: 2em 3em;
+       border-radius: 1em;
+      }
+      #password{
+       bottom:3em;
+       padding: 2em 3em;
+       border-radius: 1em;
+      }
+      .create{
+       visibility: visible;
+      }
+      .back{
+       visibility: hidden;
+      }
+     </style>
+    <script>
+     document.getElementById('name')
+     document.getElementById('mail')
+     document.getElementById('password')
+
+      console.log(cipher_array.join(""))
+     function datanew(){ 
+      get.cookie: {'name', $('anngouka_name'), 'mail', $('anngouka_mail'), 'password', $('anngouka_password')}
+     }
+     function hidden(){
+      document.querySelector('.create').style.visibility = 'hidden'
+      document.querySelector('.back').style.visibility = 'visible'
+      document.querySelector('#creates').style.visibility = 'hidden'
+     }
+     function back(){
+      document.querySelector('.create').style.visibility = 'visible'
+      document.querySelector('.back').style.visibility = 'hidden'
+      document.querySelector('#creates').style.visibility = 'visible'
+     }
+    </script>
+   </head>
+  <body>
+   <center>
+   <div class="main">
+    <div class="icon">
+     <a href="https://greeyousoft.f5.si">
+     <center>
+     <img src="https://greeyousoft.f5.si/icons/IMG_1074-removebg.png" alt="GreeyouSoft Logo">
+     </center>
+     </a> 
+    </div>
+    <div class="title">
+     <center>
+     <hi>GreeyouSoft Accountを作成</hi>
+     </center> 
+    </div>
+    <div class="forms">
+     <form>
+      <label for="name" >名前</label>
+      <input type="text" id="name">
+      <label for="mail">メール</label>
+      <input type="email" id="mail">
+      <label for="password">パスワード</label>
+      <input type="password" id="password">
+      <input type="submit" id="creates" value="作成" onclick="datanew()"> 
+     </form>
+    </div>
+	   <div class="url">
+	     
+	     <a href="https://accounts.greeyousoft.f5.si">アカウントにログイン</button>   
+	   </div>
+   </div>
+   </center>
+  </body>
+ </html>
