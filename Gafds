@@ -1,0 +1,4 @@
+function datanew(){
+     localStorage: {'name', $('anngouka_name'), 'mail', $('anngouka_mail'), 'password', $('anngouka_password')}
+      set.cookie: {'name', $('anngouka_name'), 'mail', $('anngouka_mail'), 'password', $('anngouka_password')}
+    }
