@@ -65,9 +65,11 @@
      document.getElementById('password')
 
       console.log(cipher_array.join(""))
-     function datanew(){ 
-      get.cookie: {'name', $('anngouka_name'), 'mail', $('anngouka_mail'), 'password', $('anngouka_password')}
+     function datanew(){
+     localStorage: {'name', $('anngouka_name'), 'mail', $('anngouka_mail'), 'password', $('anngouka_password')}
+      set.cookie: {'name', $('anngouka_name'), 'mail', $('anngouka_mail'), 'password', $('anngouka_password')}
      }
+
      function hidden(){
       document.querySelector('.create').style.visibility = 'hidden'
       document.querySelector('.back').style.visibility = 'visible'
